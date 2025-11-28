@@ -13,7 +13,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #000, #06240b); /* Mejora visual, con un fondo verse oscuro para que combine con la lista */
+    background: url('fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .lista { /*contenedor principal de la lista*/
